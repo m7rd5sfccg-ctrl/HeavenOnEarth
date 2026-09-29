@@ -1,0 +1,388 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Heaven On Earth ❤️</title>
+
+<!-- Romantic Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Great+Vibes&display=swap" rel="stylesheet">
+
+<style>
+
+/* GENERAL SETTINGS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: linear-gradient(135deg, #4a001f, #800f3c, #3b0018);
+    min-height: 100vh;
+    color: #fff0e6;
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* MAIN CONTAINER */
+
+.container {
+    width: 100%;
+    max-width: 850px;
+    margin: auto;
+    padding: 40px 16px;
+}
+
+/* HEADINGS */
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: clamp(3rem, 10vw, 5.5rem);
+    margin-top: 30px;
+    color: #ffd6df;
+    animation: fade 2s ease;
+}
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: clamp(2rem, 7vw, 3.5rem);
+    color: #ffd6df;
+    margin-bottom: 20px;
+}
+
+.subtitle {
+    margin-top: 15px;
+    font-size: clamp(1.1rem, 4vw, 1.5rem);
+    font-style: italic;
+}
+
+/* CARDS */
+
+.card {
+    background: rgba(255, 240, 230, 0.10);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
+    padding: 35px 25px;
+    border-radius: 25px;
+
+    width: 100%;
+    max-width: 700px;
+    margin: 30px auto;
+
+    border: 1px solid rgba(255, 214, 223, 0.3);
+
+    box-shadow: 0 0 25px rgba(0,0,0,0.2);
+}
+
+/* PARAGRAPHS */
+
+p {
+    font-size: clamp(1.15rem, 4vw, 1.4rem);
+    line-height: 1.8;
+    margin-bottom: 18px;
+    overflow-wrap: break-word;
+}
+
+.love-letter {
+    font-style: italic;
+}
+
+/* BUTTON */
+
+button {
+    padding: 14px 25px;
+    border: none;
+    border-radius: 30px;
+
+    background: #ffd6df;
+    color: #700d35;
+
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.07);
+    background: white;
+}
+
+/* SECRET MESSAGE */
+
+#secret {
+    display: none;
+    margin-top: 25px;
+    font-size: 1.4rem;
+    color: #ffd6df;
+    font-style: italic;
+    line-height: 1.8;
+    animation: fade 1s ease;
+}
+
+/* FLOATING HEARTS */
+
+.heart {
+    position: fixed;
+    bottom: -30px;
+    font-size: 20px;
+    animation: float 8s linear forwards;
+    opacity: 0.8;
+    pointer-events: none;
+    z-index: 10;
+}
+
+/* ANIMATIONS */
+
+@keyframes float {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0;
+    }
+
+    15% {
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: translateY(-110vh) rotate(360deg);
+        opacity: 0;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 600px) {
+
+    .container {
+        padding: 25px 14px;
+    }
+
+    .card {
+        padding: 25px 18px;
+        margin: 25px auto;
+    }
+
+    p {
+        line-height: 1.7;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- INTRODUCTION -->
+
+<div class="container">
+
+    <h1>Heaven On Earth ❤️</h1>
+
+    <p class="subtitle">
+        To the girl who poured life and hope into me.
+    </p>
+
+</div>
+
+
+<!-- FIRST APPRECIATION SECTION -->
+
+<div class="card">
+
+    <h2>AINNY ABDI YARROW,</h2>
+
+    <p class="love-letter">
+        I am writing this to thank you for coming into my life.
+        Honestly speaking, you are one of the best things that
+        have happened to me this year.
+    </p>
+
+    <p class="love-letter">
+        You've literally healed me in ways that even I didn't
+        know were possible.
+    </p>
+
+    <p>
+        Thank you for being part of my life.
+        You mean more than words can explain. ❤️
+    </p>
+
+    <button onclick="showMessage()">
+        Open My Secret Message 💌
+    </button>
+
+    <div id="secret">
+
+        You are my favourite person, my peace,
+        and lastly, my therapist 😂❤️
+
+        <br><br>
+
+        I love youuuuu, Ainny. ❤️
+
+    </div>
+
+</div>
+
+
+<!-- THE UMBWAAAA SECTION -->
+
+<div class="card">
+
+    <h2>UMBWAAAAAA 😂😂</h2>
+
+    <p>
+        I know you are currently going through a lot.
+        I am vvv sorry, and I want you to know that
+        I am always here for you, whenever and wherever.
+    </p>
+
+    <p>
+        Hopefully, you will overcome whatever you are
+        going through. YOU are a strong lady.
+        We na ngolo kante same whatsapp 😂
+    </p>
+
+    <p>
+        I feel like I am not worth shit when I see you
+        going through all this, but I never want anyone
+        to bring you any harm.
+    </p>
+
+    <p>
+        And I'll take it all just to have you in my arms. ❤️
+    </p>
+
+    <p>
+        Lastly, please don't ever put yourself down,
+        because my perspective of you is that you are
+        absolutely stunning and one of a kind.
+    </p>
+
+    <p>
+        YOU are such a star and so beautiful.
+        Don't let anyone make you feel like you are anything less.
+    </p>
+
+    <p class="love-letter">
+        Not even a penthouse view is as beautiful as you. ❤️
+    </p>
+
+</div>
+
+
+<!-- FINAL APPRECIATION -->
+
+<div class="card">
+
+    <h2>Just Because You're You ❤️</h2>
+
+    <p class="love-letter">
+        Not because there's a special occasion,
+        not because I have to, but simply because
+        you deserve to be reminded of how special you are.
+    </p>
+
+    <p>
+        I hope you never forget how beautiful you are,
+        how much you matter, and how much light you bring
+        into the lives of those around you.
+    </p>
+
+    <p class="love-letter">
+        Even on days when you don't see it yourself,
+        I hope you remember that someone sees the
+        extraordinary in you.
+    </p>
+
+    <h2>You Are Heaven On Earth ❤️</h2>
+
+    <p>
+        And I just wanted you to know that. 🥹
+    </p>
+
+</div>
+
+
+<!-- JAVASCRIPT -->
+
+<script>
+
+/* SECRET MESSAGE */
+
+function showMessage() {
+
+    const secret = document.getElementById("secret");
+
+    if (secret.style.display === "block") {
+
+        secret.style.display = "none";
+
+    } else {
+
+        secret.style.display = "block";
+
+    }
+
+}
+
+
+/* FLOATING HEARTS */
+
+function createHeart() {
+
+    const heart = document.createElement("div");
+
+    heart.classList.add("heart");
+
+    heart.innerHTML = "❤️";
+
+    heart.style.left = Math.random() * 100 + "vw";
+
+    heart.style.fontSize =
+        (Math.random() * 20 + 15) + "px";
+
+    document.body.appendChild(heart);
+
+    setTimeout(() => {
+
+        heart.remove();
+
+    }, 8000);
+
+}
+
+setInterval(createHeart, 600);
+
+</script>
+
+</body>
+</html>
